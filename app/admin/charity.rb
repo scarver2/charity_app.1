@@ -1,4 +1,5 @@
 ActiveAdmin.register Charity do
+  permit_params :name, :description, :url
 
   
   # See permitted parameters documentation:
